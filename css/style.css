@@ -57,6 +57,11 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
     padding: 25px;
 }
 
+
+.cont-partner, .title-oper{
+    margin-top: 150px;
+}
+
 /* TYPO */
 
 .hero-col-sx i{
@@ -113,6 +118,16 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
 .col-txt p{
     line-height: 30px;
 }
+
+.title-oper h2{
+    font-size: 35px;
+}
+
+.col-oper h3{
+    line-height: 30px;
+}
+
+
 
 /* BACKGROUND */
 
@@ -204,10 +219,10 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
 
 .col{
     float: left;
-    width: calc(33% - 10px);
     border: 1px grey solid;
-    margin: 5px;
-    min-height: 950px;  
+    min-height: 950px;
+    width: calc(33% - 10px);
+    margin: 5px;   
 }
 
 .title-col{
@@ -285,8 +300,10 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
 
 /* SECTION PARTNER DROPBOX */
  
-.cont-partner{
-    margin-top: 150px;
+.col-oper{
+    float: left;
+    width: calc(33% - 60px);
+    margin: 0 30px;
 }
 
 .col-img, .col-txt{
@@ -308,6 +325,12 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
     background-color: white;
     padding: 5px 20px;
     margin-top: 20px;
+}
+
+/* OPERATION BUSINESS */
+
+.col-oper img{
+    width: 100%;
 }
 
 /* FOOTER */
