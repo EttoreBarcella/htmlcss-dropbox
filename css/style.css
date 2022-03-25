@@ -106,6 +106,13 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
     font-size: 14px;
 }
 
+.col-txt h2{
+    margin-bottom: 30px;
+}
+
+.col-txt p{
+    line-height: 30px;
+}
 
 /* BACKGROUND */
 
@@ -276,5 +283,31 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
     padding: 7px 20px;
 }
 
-/* FOOTER */
+/* SECTION PARTNER DROPBOX */
+ 
+.cont-partner{
+    margin-top: 150px;
+}
 
+.col-img, .col-txt{
+    margin-top: 150px;
+    float: left;
+    width: 50%;
+}
+
+.col-txt{
+    padding: 40px;
+}
+
+.col-img img{
+    width: 100%;
+}
+
+.btn-white{
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px 20px;
+    margin-top: 20px;
+}
+
+/* FOOTER */
