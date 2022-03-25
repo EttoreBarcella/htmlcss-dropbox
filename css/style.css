@@ -142,14 +142,19 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
     min-height: 700px;
 }
 
+header{
+    background-color: white;
+}
 
 /* HEADER */
 
-.header-sx img{
-    vertical-align: middle;
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
 }
 
-.nav-sx ul li{
+.header-sx img, .nav-sx ul li, .nav-dx ul li{
     vertical-align: middle;
 }
 
@@ -161,9 +166,6 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
     list-style: none;
 }
 
-.nav-dx ul li{
-    vertical-align: middle;
-}
 
 .btn-header{
     vertical-align: middle;
@@ -184,6 +186,7 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
 
 .hero-col-sx{
     display: inline-block;
+    float: left;
     width: 30%;
     padding: 0 50px;
     position: relative;
@@ -193,7 +196,6 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
 .hero-col-sx p{
     padding-bottom: 30px;
 }
-
 
 .hero-col-dx{
     float: left;
