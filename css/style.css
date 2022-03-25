@@ -17,6 +17,13 @@ body{
     margin: auto;
 }
 
+.container{
+    max-width: 1080px;
+    margin: auto;
+    padding: 150px 0 150px 0;
+}
+
+
 .clearfix::after{
     content: "";
     display: table;
@@ -56,9 +63,50 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
     font-size: 40px;
 }
 
+.title-business h2{
+    font-size: 35px;
+}
+
+
 .title-hero{
     font-size: 50px;
 }
+
+.title-col h4{
+    font-weight: 400;
+}
+
+.text-col h3{
+    padding-bottom: 15px;
+}
+
+.text-col h5{
+    padding-bottom: 10px;
+}
+
+.text-col small{
+    display: inline-block;
+    padding-bottom: 30px;
+    color: gray;
+}
+
+.text-col p{
+    padding-bottom: 15px;
+}
+
+.text-col-oriz h3{
+    padding-bottom: 20px;
+}
+
+.text-col-oriz h4{
+    padding-bottom: 30px;
+}
+
+.text-col-oriz p{
+    font-size: 14px;
+}
+
+
 /* BACKGROUND */
 
 .bg-hero{
@@ -96,7 +144,7 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
 
 /* MAIN */
 
-/* MAIN-HERO */
+/* SECTION-HERO */
 
 
 .title-hero{
@@ -108,11 +156,11 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
 
 .hero-col-sx{
     display: inline-block;
+    float: left;
     width: 30%;
     padding: 0 50px;
     position: relative;
-    top: -100px;
-
+    bottom: -80px;
 }
 
 .hero-col-sx p{
@@ -121,12 +169,12 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
 
 
 .hero-col-dx{
+    float: left;
     display: inline-block;
-    width: 69%;
+    width: 70%;
 }
 
 .hero-col-dx img{
-
     display: inline-block;
     width: 100%;
     position: relative;
@@ -138,6 +186,95 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
     padding: 5px 20px;
 }
 
+/* SECTION-BUSINESS */
+
+.title-business label{
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    padding-right: 20px;
+}
+
+.col{
+    float: left;
+    width: calc(33% - 10px);
+    border: 1px grey solid;
+    margin: 5px;
+    min-height: 950px;  
+}
+
+.title-col{
+    border-bottom: 1px grey solid;
+    min-height: 20px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.col i{
+    padding-right: 5px;
+}
+
+.text-col{
+    padding: 30px 20px;
+}
+
+.btn-col{
+    display: inline-block;
+    padding: 7px 78px;
+}
+
+.buynow{
+    padding: 30px 0;
+}
+
+.text-col a {
+    text-decoration: none;
+    color: #0061ff;
+    padding-left: 5px;
+}
+
+.col-divider{
+    width: 15%;
+    margin-bottom: 30px;
+}
+
+.text-col li{
+    list-style: none;
+    padding: 10px 0;
+}
+
+.fa-check{
+    color: #0061ff;
+}
+
+.col-oriz{
+    margin-top: 50px;
+    width: calc(100% - 16px) ;
+    border: 1px grey solid;
+    min-height: 225px;
+}
+
+.col-oriz-sx{
+    float: left;
+    width: 71                                                                                                                                                                                                                                                               %;
+
+}
+
+.col-oriz-dx{
+    float: left;
+    width: 29%;
+
+}
+
+.text-col-oriz {
+    padding: 30px 0 30px 20px;
+}
+
+.btn-oriz{
+    width:90%;
+    margin-top: 30px;
+    padding: 7px 20px;
+}
 
 /* FOOTER */
 
