@@ -12,6 +12,16 @@ body{
 
 /* COMMON */
 
+.big-box{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /* DUPLICATE */
 
@@ -35,22 +45,29 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
 }
 
 .nav-sx ul li a, header .nav-dx ul li a{
-   text-decoration: none;
-   color: black;
-   padding: 25px;
+    text-decoration: none;
+    color: black;
+    padding: 25px;
 }
 
 /* TYPO */
 
+.hero-col-sx i{
+    font-size: 40px;
+}
 
+.title-hero{
+    font-size: 50px;
+}
 /* BACKGROUND */
+
+.bg-hero{
+    background-color: #b4d0e7;
+    min-height: 700px;
+}
 
 
 /* HEADER */
-
-header{
-    position: relative;
-}
 
 .header-sx img{
     vertical-align: middle;
@@ -72,12 +89,54 @@ header{
     vertical-align: middle;
 }
 
-.btn-blue{
+.btn-header{
     vertical-align: middle;
     padding: 5px 15px;
 }
 
 /* MAIN */
+
+/* MAIN-HERO */
+
+
+.title-hero{
+    width: 100%;
+    position: relative;
+    bottom: -60px;
+    padding-bottom: 10px;
+}
+
+.hero-col-sx{
+    display: inline-block;
+    width: 30%;
+    padding: 0 50px;
+    position: relative;
+    top: -100px;
+
+}
+
+.hero-col-sx p{
+    padding-bottom: 30px;
+}
+
+
+.hero-col-dx{
+    display: inline-block;
+    width: 69%;
+}
+
+.hero-col-dx img{
+
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    bottom: -80px;
+}
+
+.btn-hero{
+    vertical-align: middle;
+    padding: 5px 20px;
+}
 
 
 /* FOOTER */
