@@ -13,6 +13,33 @@ body{
 /* COMMON */
 
 
+/* DUPLICATE */
+
+.header-sx, .header-dx{
+    width: 50%;
+    display: inline-block;
+    margin: auto;
+    padding: 20px;
+}
+
+.btn-blue{
+    background-color: #0061ff;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
+    display: inline-block;
+}
+
+.nav-sx ul li a, header .nav-dx ul li a{
+   text-decoration: none;
+   color: black;
+   padding: 25px;
+}
+
 /* TYPO */
 
 
@@ -21,6 +48,34 @@ body{
 
 /* HEADER */
 
+header{
+    position: relative;
+}
+
+.header-sx img{
+    vertical-align: middle;
+}
+
+.nav-sx ul li{
+    vertical-align: middle;
+}
+
+.header-dx{ 
+    text-align: right;
+}
+
+.nav.dx ul{
+    list-style: none;
+}
+
+.nav-dx ul li{
+    vertical-align: middle;
+}
+
+.btn-blue{
+    vertical-align: middle;
+    padding: 5px 15px;
+}
 
 /* MAIN */
 
