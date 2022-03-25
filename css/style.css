@@ -127,7 +127,13 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
     line-height: 30px;
 }
 
+.partner-title h2{
+    margin-bottom: 30px;
+}
 
+.partner-title a{
+    color: #0061ff;
+}
 
 /* BACKGROUND */
 
@@ -178,7 +184,6 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
 
 .hero-col-sx{
     display: inline-block;
-    float: left;
     width: 30%;
     padding: 0 50px;
     position: relative;
@@ -192,7 +197,6 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
 
 .hero-col-dx{
     float: left;
-    display: inline-block;
     width: 70%;
 }
 
@@ -299,12 +303,7 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
 }
 
 /* SECTION PARTNER DROPBOX */
- 
-.col-oper{
-    float: left;
-    width: calc(33% - 60px);
-    margin: 0 30px;
-}
+
 
 .col-img, .col-txt{
     margin-top: 150px;
@@ -329,8 +328,21 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
 
 /* OPERATION BUSINESS */
 
+.col-oper{
+    float: left;
+    width: calc(33% - 90px);
+    margin-right: 30px;
+}
+
 .col-oper img{
     width: 100%;
+}
+
+/* PARTNER DROPBOX */
+
+.partner-title{
+    width: 100%;
+    margin-top: 150px;
 }
 
 /* FOOTER */
