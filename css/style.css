@@ -153,6 +153,15 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
     padding: 20px 0;
 }
 
+.col-footer h4{
+    padding: 20px 0;
+}
+
+.col-footer ul li{
+    padding: 5px 0;
+    font-weight: 300;
+}
+
 /* BACKGROUND */
 
 .bg-hero{
@@ -166,6 +175,10 @@ header{
 
 .bg-sect{
     background-color: #b4d0e7;
+}
+
+footer{
+    background-color: black;
 }
 
 /* HEADER */
@@ -476,6 +489,10 @@ header{
 
 /* FAQ */
 
+footer{
+    color: white;
+}
+
 .box-faq{
     width: 90%;
     display: inline-block;
@@ -488,3 +505,34 @@ header{
 }
 
 /* FOOTER */
+
+.col-footer{
+    float: left;
+    width: 20%;
+    margin: 130px 0;
+}
+
+.col-footer ul{
+    list-style: none;
+}
+
+.col-footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-hr{
+    width: 10%;
+}
+
+.language{
+    margin: 50px 0;
+}
+
+.language i{
+    padding: 0 5px;
+}
+
+.fa-sort-up{
+    vertical-align: bottom;
+}
