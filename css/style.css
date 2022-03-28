@@ -139,6 +139,20 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
     padding: 40px 40px 10px 40px;
 }
 
+.box-faq p{
+    padding: 30px 0;
+}
+
+.bg-sect .container h2{
+    color: #61082b;
+    font-size: 35px;
+}
+
+.faq h3{
+    font-size: 25px;
+    padding: 20px 0;
+}
+
 /* BACKGROUND */
 
 .bg-hero{
@@ -148,6 +162,10 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
 
 header{
     background-color: white;
+}
+
+.bg-sect{
+    background-color: #b4d0e7;
 }
 
 /* HEADER */
@@ -435,5 +453,38 @@ header{
     filter: invert(100%);
 }
 
+/* CLICK HERE TO SUB */
+
+.title-sub{
+    width: 40%;
+    display: inline-block;
+}
+
+.button{
+    width: 60%;
+    text-align: right;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.start-here{
+    line-height: 30px;
+    padding: 3px 70px;
+    color: black;
+    background-color: white;
+}
+
+/* FAQ */
+
+.box-faq{
+    width: 90%;
+    display: inline-block;
+}
+
+.box-arrow{
+    width: 10%;
+    display: inline-block;
+    text-align: right;
+}
 
 /* FOOTER */
