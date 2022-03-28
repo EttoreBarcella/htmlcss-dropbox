@@ -74,7 +74,6 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
     font-size: 35px;
 }
 
-
 .title-hero{
     font-size: 50px;
 }
@@ -100,6 +99,7 @@ header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
 .text-col p{
     padding-bottom: 15px;
 }
+
 
 .text-col-oriz h3{
     padding-bottom: 20px;
@@ -222,7 +222,6 @@ header{
 }
 
 .hero-col-sx{
-    display: inline-block;
     float: left;
     width: 30%;
     padding: 0 50px;
@@ -385,6 +384,10 @@ header{
 }
 
 /* DROPBOX LOGOS */
+
+.overflow-fix{
+    overflow: hidden;
+}
 
 .cont-logo{
     width: 100vw;
