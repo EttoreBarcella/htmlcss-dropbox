@@ -45,6 +45,8 @@ body{
     color: white;
     text-align: center;
     text-decoration: none;
+    transition: box-shadow, 0.5s;
+    
 }
 
 header .nav-dx, header .nav-dx ul li, header .nav-dx ul, .nav-sx, .nav-sx ul li{
@@ -562,4 +564,8 @@ footer{
 .col-footer ul li a:hover{
     text-decoration: underline;
     color: white;
+}
+
+.btn-blue:hover{
+    box-shadow: 12px 12px 2px 1px rgba(182, 177, 177, 0.2);
 }
