@@ -536,3 +536,30 @@ footer{
 .fa-sort-up{
     vertical-align: bottom;
 }
+
+
+/* STYLE */
+
+.nav-sx ul li a:hover, .nav-dx ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.buynow:hover{
+    text-decoration: underline;
+    color: #0061ff;
+}
+
+.btn-white:hover, .start-here:hover{
+    background-color: black;
+    color: white;
+}
+
+.block:hover{
+    border: 10px solid #d0e9cd;
+}
+
+.col-footer ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
